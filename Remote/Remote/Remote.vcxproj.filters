@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="扩展工具条">
+      <UniqueIdentifier>{cf1818de-e5f1-46dd-90f4-b707d7439e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内核文件">
+      <UniqueIdentifier>{f7b78b3a-5e0c-458b-bd1c-435db862bb5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU效率">
+      <UniqueIdentifier>{1e0e42dd-8ad4-4b16-b0c2-22eb0f0530a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="配置向导">
+      <UniqueIdentifier>{ef51d3be-cf42-4dfb-b1c2-707a706cbfae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="缓冲区">
+      <UniqueIdentifier>{e7dad8ea-1869-4d39-a7a8-5e87e38cc361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="公用函数">
+      <UniqueIdentifier>{03d369e0-c33b-4a77-9feb-7bcaa7fb5463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="远程终端Dlg">
+      <UniqueIdentifier>{46a874d6-7911-423e-b2b8-be7b4c9c910b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="系统管理Dlg">
+      <UniqueIdentifier>{8f20b86a-0ab6-48c0-a057-ffbe60aa548d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="配置Dlg">
+      <UniqueIdentifier>{8e710f8e-84dd-4450-b388-a5d17e51ebd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="远程文件Dlg">
+      <UniqueIdentifier>{0c7e9d0c-cff8-4bab-90e9-fad3864b1e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="远程音频Dlg">
+      <UniqueIdentifier>{eee9032d-825b-422c-9be5-5a72f940b449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="远程桌面Dlg">
+      <UniqueIdentifier>{b7498153-ed1d-4040-a7c6-9b012cec0308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="远程视频">
+      <UniqueIdentifier>{a3306e03-63f3-4e11-8dd6-53d33ffddf07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="远程注册表Dlg">
+      <UniqueIdentifier>{404b7724-4087-4580-8584-1494d432a4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="远程服务">
+      <UniqueIdentifier>{3b009b66-46de-44b7-acfd-2993f212198e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Remote.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Remote.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ToolBar_Main.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cmdshell.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\system.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00002.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bitmap_4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bitmap_5.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\3.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\4.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\dot.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\1.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\2.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\audio.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Estimate.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\文件夹.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\dword.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\regsz.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Remote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueColorToolBar.h">
+      <Filter>扩展工具条</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPServer.h">
+      <Filter>内核文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CpuUseage.h">
+      <Filter>CPU效率</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile.h">
+      <Filter>配置向导</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>缓冲区</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>公用函数</Filter>
+    </ClInclude>
+    <ClInclude Include="zconf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellDlg.h">
+      <Filter>远程终端Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemDlg.h">
+      <Filter>系统管理Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingDlg.h">
+      <Filter>配置Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>公用函数</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManagerDlg.h">
+      <Filter>远程文件Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTransferModeDlg.h">
+      <Filter>远程文件Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDialog.h">
+      <Filter>远程终端Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>远程音频Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioDlg.h">
+      <Filter>远程音频Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenSpyDlg.h">
+      <Filter>远程桌面Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoDlg.h">
+      <Filter>远程视频</Filter>
+    </ClInclude>
+    <ClInclude Include="RegDlg.h">
+      <Filter>远程注册表Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerDlg.h">
+      <Filter>远程服务</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Remote.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TrueColorToolBar.cpp">
+      <Filter>扩展工具条</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPServer.cpp">
+      <Filter>内核文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CpuUseage.cpp">
+      <Filter>CPU效率</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile.cpp">
+      <Filter>配置向导</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>缓冲区</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellDlg.cpp">
+      <Filter>远程终端Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemDlg.cpp">
+      <Filter>系统管理Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingDlg.cpp">
+      <Filter>配置Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManagerDlg.cpp">
+      <Filter>远程文件Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDialog.cpp">
+      <Filter>远程终端Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>远程音频Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioDlg.cpp">
+      <Filter>远程音频Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenSpyDlg.cpp">
+      <Filter>远程桌面Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoDlg.cpp">
+      <Filter>远程视频</Filter>
+    </ClCompile>
+    <ClCompile Include="RegDlg.cpp">
+      <Filter>远程注册表Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerDlg.cpp">
+      <Filter>远程服务</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransferModeDlg.cpp">
+      <Filter>远程文件Dlg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Remote.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
